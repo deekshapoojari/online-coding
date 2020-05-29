@@ -1,0 +1,37 @@
+#include<stdio.h>
+
+int main()
+
+{
+
+int n,r,sum=0,temp;
+
+printf(&quot;enter the number=&quot;);
+
+scanf(&quot;%d&quot;,&amp;n);
+
+temp=n;
+
+while(n&gt;0)
+
+{
+
+r=n%10;
+
+sum=sum+(rrr);
+
+n=n/10;
+
+}
+
+if(temp==sum)
+
+printf(&quot;armstrong number &quot;);
+
+else
+
+printf(&quot;not armstrong number&quot;);
+
+return 0;
+
+}
