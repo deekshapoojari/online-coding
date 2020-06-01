@@ -1,0 +1,88 @@
+n=input("enter the no")
+
+a=list(n)
+
+a.reverse()
+
+print(a)
+
+for i in a:
+
+    if i=='A':
+
+        h=a.index(i)
+
+        a.remove('A')
+
+        a.insert(h,10)
+
+for i in a:
+
+    if i=='B':
+
+        h=a.index(i)
+
+        a.remove('B')
+
+        a.insert(h,11)
+
+for i in a:
+
+    if i=='C':
+
+        h=a.index(i)
+
+        a.remove('C')
+
+        a.insert(h,12)
+
+for i in a:
+
+    if i=='D':
+
+        h=a.index(i)
+
+        a.remove('D')
+
+        a.insert(h,13)
+
+for i in a:
+
+    if i=='E':
+
+        h=a.index(i)
+
+        a.remove('E')
+
+        a.insert(h,14)
+
+for i in a:
+
+    if i=='F':
+
+        h=a.index(i)
+
+        a.remove('F')
+
+        a.insert(h,15)
+
+print(a)
+res=0
+count=0
+
+for i in a:
+
+    p=int(i)
+
+    res+=p*16**count
+
+    count=count+1
+
+print(res)
+
+    
+
+
+
+
+
