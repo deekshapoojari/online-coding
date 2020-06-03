@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+void main()
+{
+    int a[] = {1, 2, 1, 5, 2};
+    int n = sizeof(a) / sizeof(int);
+    int result = 0, val, i ,j;
+
+    for(i=0; i<n; i++)
+    {
+        result ++;
+        val = a[i];
+
+        for(j=i+1; j<n; j++)
+        {
+            if(a[j] == val)
+                result++;
+        }
+    }
+    printf("%d",result);
+}
